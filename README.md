@@ -37,7 +37,7 @@ Step-by-step installation instruction is at the [tutorial](https://github.com/ye
 - [ZDOCK](https://zlab.umassmed.edu/zdockconv3d/) = 3.0.2
 - [Cytoscape.js](https://js.cytoscape.org/) = 3.19.1
 - [NGL viewer](https://nglviewer.org/) = v2.0.0-dev.39
-- bootstrap, jquery, dataframe
+- Bootstrap, jQuery, Buttons, Popper
 
 ---
 ### Usage
