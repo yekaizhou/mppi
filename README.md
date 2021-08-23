@@ -59,4 +59,4 @@ Yekai Zhou, Hongjun Chen, Sida Li, Ming Chen, mPPI: a database extension to visu
 ---
 ### Contact
 
-For any problems or suggestions regarding mPPI, please post on [Github Issue](https://github.com/yekaizhou/mppi/issues) or send to yekai.zhou@outlook.com.
+For any problems or suggestions regarding _mPPI_, please post on [Github Issue](https://github.com/yekaizhou/mppi/issues) or send to yekai.zhou@outlook.com.
