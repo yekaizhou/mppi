@@ -55,6 +55,11 @@ A demo can be viewed and operated at [mPPI](http://bis.zju.edu.cn/mppi/).
 mPPI has been employed in [NDAtlas](http://bis.zju.edu.cn/ndatlas/), ...
 
 ---
+### Citation
+
+Yekai Zhou, Hongjun Chen, Sida Li, Ming Chen, mPPI: a database extension to visualize structural interactome in a one-to-many manner, Database, Volume 2021, 2021, baab036, https://doi.org/10.1093/database/baab036
+
+---
 ### Contact
 
 For any problems or suggestions during the use of duet, please post on [Github Issue](https://github.com/yekaizhou/duet/issues) or contact yekai.zhou@outlook.com.
