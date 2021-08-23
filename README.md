@@ -48,7 +48,7 @@ Application of mPPI in a disease-related PPI database. (A) PPI network in node-a
 ---
 ### Applications
 
-- A demo can be viewed and operated at [mPPI](http://bis.zju.edu.cn/mppi/).
+- A demo can be viewed at [mPPI](http://bis.zju.edu.cn/mppi/).
 - mPPI has been employed in [NDAtlas](http://bis.zju.edu.cn/ndatlas/).
 
 ---
