@@ -18,6 +18,7 @@ The left part is the workflow of mPPI. After applying mPPI, the user’s databas
 
 ---
 ### Installation
+
 There are two modules in mPPI: dock and viz. Each module contains two steps. By executing one command in dock module and importing results from dock module into viz module, users’ basic PPI databases will be extended with a structural visualization function.
 
 - For proteins in user’s database, download structure files in PDB format; For pairwise interactions in user’s database, calculate their interaction conformation and docking scores from downloaded PDBs using ZDOCK.
@@ -40,19 +41,15 @@ Step-by-step installation instruction is at the [tutorial](https://github.com/ye
 ---
 ### Usage
 
-![](example_application.jpg)
+<img src="example_application.jpg" align="left" width="540"/>
 
 Application of mPPI in a disease-related PPI database. (A) PPI network in node-and-edge representation. This example network is a sub-interactome containing 25 proteins related to Neurodegeneration (http://bis.zju.edu.cn/ndatlas/). The black circle stressed out a sub-network center at protein JUN that will be structurally displayed in Fig. 2B–E. (B) Presentation style and logistics of multiway structural interactions in mPPI. When selecting proteins to interact (in this example a protein MAPK8), the selected proteins will be tagged ‘SELECTED’, and all other proteins that are structurally compatible to them will be tagged ‘COMPATIBLE’, while other competitive ligands will be tagged ‘COMPETITIVE’, in the last column of each protein row. The checking and unchecking of each protein will change all the compatibility tags accordingly. (C) Illustration of one-to-many structural interaction. The center protein is JUN (white), and we select two compatible interactors MAPK8 (orange), APLP2 (purple) to visualize. (D) Another illustration of one-to-many structural interaction. The center protein is JUN (white), and interactors ATF4 (green), FOS (red) and MAPK8 (orange) are competitive. (E) PPI conformation at atomic resolution. The partial image of structural interaction stressed out in black box in Fig. 2B intuitively displays the binding interface of JUN and MAPK8. For each protein ligands, the docked structures can be downloaded for users’ further analysis by clicking the ‘.PDB’ button behind each protein name, and the docking scores (representing the tightness of the interaction calculated by ZDOCK) are shown behind each ‘.PDB’ button.
 
 ---
-### Quick demo
-
-A demo can be viewed and operated at [mPPI](http://bis.zju.edu.cn/mppi/).
-
----
 ### Applications
 
-mPPI has been employed in [NDAtlas](http://bis.zju.edu.cn/ndatlas/), ...
+- A demo can be viewed and operated at [mPPI](http://bis.zju.edu.cn/mppi/).
+- mPPI has been employed in [NDAtlas](http://bis.zju.edu.cn/ndatlas/).
 
 ---
 ### Citation
@@ -62,4 +59,4 @@ Yekai Zhou, Hongjun Chen, Sida Li, Ming Chen, mPPI: a database extension to visu
 ---
 ### Contact
 
-For any problems or suggestions during the use of duet, please post on [Github Issue](https://github.com/yekaizhou/duet/issues) or contact yekai.zhou@outlook.com.
+For any problems or suggestions during the use of mPPI, please post on [Github Issue](https://github.com/yekaizhou/mppi/issues) or contact yekai.zhou@outlook.com.
