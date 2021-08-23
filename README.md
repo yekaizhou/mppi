@@ -14,8 +14,17 @@ Protein–protein interaction (PPI) databases with structural information are us
 
 ---
 ### Installation
+There are two modules in mPPI: dock and viz. Each module contains two steps. By executing one command in dock module and importing results from dock module into viz module, users’ basic PPI databases will be extended with a structural visualization function.
 
-tutorial.pdf documents all necessary steps to integrate mPPI into a PPI database.
+- For proteins in user’s database, download structure files in PDB format; For pairwise interactions in user’s database, calculate their interaction conformation and docking scores from downloaded PDBs using ZDOCK.
+
+- Segment docked protein complexes into two PDB files as two interactors. Store divided PDBs into folders in specific manner. The previous two steps are integrated into one script dock.sh.
+
+- Using Cytoscape JavaScript library, scripts net.js and net.php are created to visualize node-and-edge PPI network.
+
+- Employing NGLViewer, scripts mppi.js and mppi.php are designed to project the protein interaction structures in one-to-many manner.
+
+Step-by-step installation instruction is at the [tutorial](https://github.com/yekaizhou/mppi/tutorial.pdf) section.
 
 ---
 ### Dependencies
