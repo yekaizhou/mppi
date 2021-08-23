@@ -24,7 +24,7 @@ There are two modules in mPPI: dock and viz. Each module contains two steps. By 
 
 - Employing NGLViewer, scripts mppi.js and mppi.php are designed to project the protein interaction structures in one-to-many manner.
 
-Step-by-step installation instruction is at the [tutorial](https://github.com/yekaizhou/mppi/tutorial.pdf) section.
+Step-by-step installation instruction is at the [tutorial](https://github.com/yekaizhou/mppi/blob/main/tutorial.pdf).
 
 ---
 ### Dependencies
