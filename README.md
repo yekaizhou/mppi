@@ -19,7 +19,7 @@ The left part is the workflow of mPPI. After applying mPPI, the user’s databas
 ---
 ### Installation
 
-There are two modules in mPPI: dock and viz. Each module contains two steps. By executing one command in dock module and importing results from dock module into viz module, users’ basic PPI databases will be extended with a structural visualization function.
+There are two modules in mPPI: [dock](https://github.com/yekaizhou/mppi/tree/main/dock) and [viz](https://github.com/yekaizhou/mppi/tree/main/viz). Each module contains two steps. By executing one command in dock module and importing results from dock module into viz module, users’ basic PPI databases will be extended with a structural visualization function.
 
 - For proteins in user’s database, download structure files in PDB format; For pairwise interactions in user’s database, calculate their interaction conformation and docking scores from downloaded PDBs using ZDOCK.
 
