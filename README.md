@@ -1,7 +1,7 @@
 ## mPPI: A Database Extension to Visualize Structural Interactome in One-to-many Manner
 
 - **mPPI is widely applicable to diverse PPI databases**
-- **mPPI distinguishs the complex structure of target protein and its multiple interactors**
+- **mPPI distinguishes the complex structure of target protein and its multiple interactors**
 - **mPPI facilitates multi-purpose drug design and protein complex structure prediction**
 
 ---
