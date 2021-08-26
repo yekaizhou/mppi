@@ -12,7 +12,7 @@
 
 ## Step ①-② in the _dock_ module
 
-- Download **dock.zip** and decompress it. The downloaded **pdb** folder, **interaction.txt**, and **proteins.txt** contain demo data to achieve Example Application.
+- Download **dock**. Download **example**, where the inner **pdb** folder, **interaction.txt**, and **proteins.txt** contain demo data to achieve Example Application, that need to be moved to the dock folder.
 
    > **_dock_ folder**
    >
@@ -139,7 +139,7 @@
 
 ## Step ③-④ in the _viz_ module
 
-- Download **viz.zip** and decompress it. Deploy resulting folder **mppi** into web server environment. The downloaded **ppi.sql** and **dockRes** folder contain demo data to achieve Example Application.
+- Download **viz**. Deploy resulting folder **mppi** into web server environment.
   
    > **_viz_ folder** 
    >
