@@ -45,8 +45,8 @@ for (my $i = $line_num; ($i < @zdout_lines) && ($pred_num <= $num_preds); $i++)
     }
     
     system($create_cmd);
-    my $recfolder = substr($filename, 0, 4);
-    my $ligfile = substr($filename, 5, 4);
+    my $recfolder = substr($filename, 0, index($filename, '___'));
+    my $ligfile = substr($filename, index($filename, '___') + 3, length($filename) - index($filename, '___') - 7);
     system "cat $newligfile >".'./dockRes/'.$recfolder.'/'.$ligfile.'.pdb';
     system "rm $newligfile\n";
     $pred_num++;
