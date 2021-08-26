@@ -29,7 +29,7 @@ There are two modules in mPPI: [dock](https://github.com/yekaizhou/mppi/tree/mai
 
 - Employing NGLViewer, scripts mppi.js and mppi.php are designed to project the protein interaction structures in one-to-many manner.
 
-Step-by-step installation instruction is at the [tutorial](https://github.com/yekaizhou/mppi/blob/main/tutorial.pdf).
+Step-by-step installation instruction is at [implement](https://github.com/yekaizhou/mppi/blob/main/implement).
 
 ---
 ### Dependencies
