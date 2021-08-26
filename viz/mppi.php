@@ -13,12 +13,12 @@
       padding: 0;
     }
   </style>
-  <script src="./packages/ngl/ngl.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ngl/2.0.0-dev.39/ngl.min.js"></script>
 </head>
 
 <body>
   <?php
-    require("./DBconnect.php");
+    require("./DBConnect.php");
     $available = 0;
     $st = $_GET['id'];
     if (strpos($st, ' ') == 0) { // select node
