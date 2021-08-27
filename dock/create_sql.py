@@ -73,20 +73,20 @@ for s in compatible_interactions:
         compatible.append((pdb2num[s[0].upper()], pdb2num[s[1].upper()], pdb2num[s[2].upper()]))
 
 header = """CREATE TABLE `ppi_edge` (
-  `p1id` int(5) DEFAULT NULL,
-  `p2id` int(5) DEFAULT NULL,
-  `docking_score` decimal(9,3) DEFAULT NULL
+  `p1id` int(10) DEFAULT NULL,
+  `p2id` int(10) DEFAULT NULL,
+  `docking_score` decimal(10,3) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 CREATE TABLE `ppi_compatible` (
-  `receptor` int(5) DEFAULT NULL,
-  `p1id` int(5) DEFAULT NULL,
-  `p2id` int(5) DEFAULT NULL
+  `receptor` int(10) DEFAULT NULL,
+  `p1id` int(10) DEFAULT NULL,
+  `p2id` int(10) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 CREATE TABLE `ppi_node` (
-  `id` int(5) DEFAULT NULL,
-  `label` varchar(11) DEFAULT NULL,
-  `pdb` varchar(6) DEFAULT NULL,
-  `uniprot` varchar(8) DEFAULT NULL
+  `id` int(10) DEFAULT NULL,
+  `label` varchar(50) DEFAULT NULL,
+  `pdb` varchar(50) DEFAULT NULL,
+  `uniprot` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;"""
 
 edge_line = "INSERT INTO `ppi_edge` (`p1id`, `p2id`, `docking_score`) VALUES"

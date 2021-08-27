@@ -34,7 +34,7 @@
         $file=scandir($dir);
         for ($i = 0; $i < count($file); $i++) {
           if ($file[$i][0] != ".") {
-            $pdb_name[$n] = substr($file[$i], 0, 4);
+            $pdb_name[$n] = substr($file[$i], 0, -4);
             $n++;
           }
         }
