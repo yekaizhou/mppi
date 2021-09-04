@@ -10,7 +10,7 @@
 Protein–protein interaction (PPI) databases with structural information are useful to investigate biological functions at both systematic and atomic levels. However, most existing PPI databases only curate binary interactome. We developed mPPI, a database extension for multiway PPI structural visualization. mPPI can visualize target protein and its multiple interactors simultaneously, which facilitates multi-target drug discovery and structure prediction of protein macro-complexes. By employing a protein–protein docking algorithm, mPPI largely extends the coverage of structural interactome from experimentally resolved complexes. mPPI is customizable and convenient, which already has been used for several disease–related PPI databases.
 
 ---
-### Graphical Abstract
+### Overview
 
 ![](graphical_abstract.png)
 
